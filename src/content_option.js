@@ -201,16 +201,16 @@ const dataportfolio = [{
     },
 ];
 
-const contactConfig = {
-    YOUR_EMAIL: "attiqrehman130@gmail.com",
-    YOUR_FONE: "+923207563669",
-    description: "Have a question or need assistance? Reach out to us via email, phone, or the contact form above. We're here to help and will respond promptly. Let's connect!",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
-};
+    const contactConfig = {
+        YOUR_EMAIL: "attiqrehman130@gmail.com",
+        YOUR_FONE: "+923207563669",
+        description: "Have a question or need assistance? Reach out to us via email, phone, or the contact form above. We're here to help and will respond promptly. Let's connect!",
+        // creat an emailjs.com account 
+        // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+        YOUR_SERVICE_ID: "service_s4artfi",
+        YOUR_TEMPLATE_ID: "template_h9qpawm",
+        YOUR_USER_ID: "ERkJ13FM6ITez2y1i",
+    };
 
 const socialprofils = {
     github: "https://github.com/attiqrehman-ar",
