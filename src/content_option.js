@@ -1,4 +1,4 @@
-import myPic from './assets/images/my-pic.png';
+import myPic from './assets/images/my-pic.jpeg';
 const logotext = "Attiq";
 const meta = {
     title: "Attiq Ur Rehman",
