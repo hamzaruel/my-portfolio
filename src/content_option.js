@@ -1,42 +1,38 @@
-const logotext = "Hussain";
+import myPic from './assets/images/my-pic.png';
+const logotext = "Attiq";
 const meta = {
-    title: "Muhammad Hussain",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Attiq Ur Rehman",
+    description: "Attiq Ur Rehman - Web developer and accesibility Expert"
 };
 
 const introdata = {
-    title: "I’m Muhammad Hussain",
+    title: "I’m Attiq Ur Rehman",
     animated: {
-        first: "A Frontend Developer",
-        second: "A MERN Stack developer",
+        first: "Web Developer",
+        second: "Accessibility Expert",
     },
-    description: "I am a passionate MERN Stack Developer skilled in MongoDB, Express.js, React, and Node.js. I enjoy transforming complex tasks into simple solutions, focusing on usability and performance. My goal is to deliver high-quality, efficient digital experiences that meet users' needs and exceed expectations.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a Software Engineer and Business Developer skilled in Shopify Liquid, React.js, Django, Flask, HTML/CSS, and Python. With a software engineering degree from the University of Gujrat, I specialize in creating user-focused solutions, accessible websites (WCAG compliance), and SEO optimization to improve user experiences for all, including individuals with disabilities.",
+    your_img_url: myPic,
 };
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "I'm a passionate developer with a keen interest in web technologies. With expertise in frontend and full-stack development, I enjoy crafting elegant, user-friendly web applications. I'm always eager to learn new skills and take on challenging projects, aiming to deliver high-quality and impactful solutions. Beyond coding, I value collaboration and continuous growth in the ever-evolving tech landscape.",
+    aboutme: "I am a Software Engineer and Business Developer skilled in Shopify Liquid, React.js, Django, Flask, HTML/CSS, and Python. With a software engineering degree from the University of Gujrat, I specialize in creating user-focused solutions, accessible websites (WCAG compliance), and SEO optimization to improve user experiences for all, including individuals with disabilities.",
 };
 const worktimeline = [{
-        jobtitle: "BS Computer Science",
-        where: "University of Narowal",
-        date: "2020-2024",
+        jobtitle: "Associate Developer",
+        where: "EcomBack",
+        date: "August 2024- Present",
     },
     {
-        jobtitle: "Full Stack developer",
-        where: "PNY Training Institute",
-        date: "January 2023 - July 2023",
+        jobtitle: "Python Developer",
+        where: "Knowledge Streams",
+        date: "January 2024 - April 2024",
     },
     {
-        jobtitle: "MERN Stack developer",
-        where: "PNY Training Institute",
-        date: "August 2023 - December 2023",
-    },
-    {
-        jobtitle: "Website development",
-        where: "Fiverr",
-        date: "Since 2022",
+        jobtitle: "Buisness Developer",
+        where: "Stream Consultants",
+        date: "April 2024 - August 2023",
     },
 ];
 
@@ -49,29 +45,23 @@ const skills = [{
         value: 85,
     },
     {
-        name: "Bootstrap",
-        value: 80,
+        name: "TailwendCss and Bootstrap",
+        value: 85,
     },
     {
-        name: "Tailwind CSS",
-        value: 80,
+        name: "Custom Shopify",
+        value: 85,
     },
     {
-        name: "Javascript",
+        name: "Flask",
         value: 80,
     },
+
     {
         name: "React JS",
         value: 80,
     },
-    {
-        name: "Material UI",
-        value: 85,
-    },
-    {
-        name: "Redux",
-        value: 85,
-    },
+
 ];
 const backend = [
     {
@@ -79,12 +69,20 @@ const backend = [
         value: 85,
     },
     {
-        name: "Express JS",
+        name: "Python",
         value: 85,
     },
     {
-        name: "MongoDB",
-        value: 90,
+        name: "Django",
+        value: 85,
+    },
+    {
+        name: "flask",
+        value: 80,
+    },
+    {
+        name: "Javascript",
+        value: 80,
     },
 ];
 const others = [
@@ -95,10 +93,6 @@ const others = [
     {
         name: "Github",
         value: 80,
-    },
-    {
-        name: "Netlify",
-        value: 90,
     },
     {
         name: "Vercel",
@@ -127,35 +121,35 @@ const others = [
 ];
 
 const services = [{
-        title: "Frontend Developer",
-        description: "Expert in frontend development, crafting responsive and dynamic websites using HTML, CSS, and JavaScript. Proficient with Bootstrap and Tailwind CSS for building visually appealing, user-friendly interfaces. Passionate about creating seamless user experiences.",
+        title: "Custom Web Development",
+        description: "Professional web development services tailored to create responsive, user-friendly, and visually appealing websites that drive engagement and deliver exceptional user experiences.",
     },
     {
-        title: "MERN Stack developer",
-        description: "Experienced MERN stack developer specializing in building dynamic and responsive web applications. Proficient in MongoDB, Express.js, React, and Node.js, I create seamless full-stack solutions with a focus on performance and user experience.",
+        title: "Shopify and Wordpress",
+        description: "Expert Shopify and WordPress development, creating visually stunning, accessible, and user-friendly websites tailored to your business needs, with a focus on WCAG compliance for inclusivity.",
     },
     {
-        title: "Wordpress Design",
-        description: "Specialist in WordPress development, creating customized and responsive websites. Skilled in designing user-friendly interfaces, optimizing performance, and integrating essential plugins to enhance functionality. Delivering tailored solutions to meet diverse client needs.",
+        title: "Accessibility Expertise",
+        description: "Specialized accessibility solutions to ensure your websites meet WCAG standards, providing inclusive, user-friendly experiences for individuals of all abilities.",
     },
 ];
 const experience = [{
-        title: " Frontend Developer | Tech Solutions Inc. | January 2022 - June 2022",
-        description1: "Designed and implemented responsive web interfaces using React, HTML, CSS, and JavaScript.",
-        description2: "Collaborated with designers to create visually appealing and user-friendly websites for diverse clients, including startups and established businesses.",
-        description3: "Optimized website performance and implemented SEO strategies, resulting in a 40% increase in organic traffic.",
+        title: " Associate Developer | Ecomback (August 2024 – Present)",
+        description1: "Developed and optimized websites using Shopify Liquid and custom-built solutions.",
+        description2: "Focused on WCAG 2.1 compliance to ensure websites are accessible to disabled users by implementing various accessibility tools and standards.",
+        description3: "Optimized website performance for SEO using tools like Lighthouse and Powermapper, while collaborating with clients and developers to implement accessibility-focused enhancements for a broader, more inclusive audience.",
     },
     {
-        title: "MERN Stack Developer | Creative Web Agency | March 2022 - October 2023",
-        description1: "Led the development of a cutting-edge e-commerce platform using the MERN stack, improving customer engagement and sales by 30%.",
-        description2: "Integrated third-party APIs for payment processing and real-time analytics, enhancing the platform's functionality and user experience.",
-        description3: "Coordinated with cross-functional teams to streamline development processes and implement agile methodologies.",
+        title: "Business Developer | Stream Consultant (May 2024 – August 2024)",
+        description1: "Secured projects on various platforms and handled client interactions.",
+        description2: "Coordinated project management tasks using Trello and Jira, ensuring timely delivery of applications..",
+        description3: "Managed client feedback and incorporated it into the development process, enhancing project outcomes and Collaborated on GitHub for smooth deployments and issue resolutions.",
     },
     {
-        title: "WordPress Developer | Digital Media Co. | June 2023 - Present",
-        description1: "Developed and customized WordPress websites for clients in various industries, focusing on e-commerce and portfolio sites.",
-        description2: "Created custom themes and plugins to enhance site functionality and meet specific client needs.",
-        description3: "Provided ongoing support and maintenance, ensuring the security and performance of client websites.",
+        title: "Python Developer | Knowledge Streams (Jan 2024 – April 2024)",
+        description1: "Developed full-stack web applications using Python Django in Visual Studio Code.",
+        description2: "Collaborated in a Git/GitHub environment for version control and teamwork.",
+        description3: "Gained experience working in fast-paced development cycles, problem-solving, and learning best practices from experienced mentors.",
     },
 ];
 
@@ -208,8 +202,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "muhammad.hussain.cs8@gmail.com",
-    YOUR_FONE: "+92 309 1096029",
+    YOUR_EMAIL: "attiqrehman130@gmail.com",
+    YOUR_FONE: "+923207563669",
     description: "Have a question or need assistance? Reach out to us via email, phone, or the contact form above. We're here to help and will respond promptly. Let's connect!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -219,10 +213,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/HussainAnjan5",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com/in/muhammad-hussain-78b625254",
-    twitter: "https://www.instagram.com/anjan._.hussain/",
+    github: "https://github.com/attiqrehman-ar",
+    facebook: "https://www.facebook.com/share/p/19WjzrZeo2/",
+    linkedin: "https://www.linkedin.com/in/attiq-rehman-/",
+    twitter: "https://x.com/attiq_reh1",
 };
 export {
     meta,
