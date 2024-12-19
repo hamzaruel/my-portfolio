@@ -9,6 +9,8 @@ const Headermain = () => {
   const [isActive, setActive] = useState("false");
 
   const handleToggle = () => {
+    const newState = isActive === "false" ? "true" : "false";
+    setActive(newState);
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
   };
@@ -22,7 +24,7 @@ const Headermain = () => {
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
-          <button aria-label="Menu Button" aria-expanded={isActive} className="menu__button  nav_ac" onClick={handleToggle}>
+          <button aria-label="Menu Button"  aria-expanded={isActive}  className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
           </button>
           
