@@ -3,7 +3,7 @@
 A simple portfolio template for developer/designers built with React. 
 
 
-### [live preview](https://hamzazahid.vercel.app/))
+### [live preview](https://hamzazahid.vercel.app/)
 
 
 ### Features
