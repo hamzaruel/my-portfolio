@@ -1,38 +1,38 @@
-import myPic from './assets/images/my-pic.jpeg';
-const logotext = "Attiq";
+import myPic from './assets/images/my-pic.jpg';
+const logotext = "Hamza";
 const meta = {
-    title: "Attiq Ur Rehman",
-    description: "Attiq Ur Rehman - Web developer and accesibility Expert"
+    title: "Hamza Zahid",
+    description: "Hamza Zahid - Blockchain Developer and accesibility Expert"
 };
 
 const introdata = {
-    title: "I’m Attiq Ur Rehman",
+    title: "I’m Hamza Zahid",
     animated: {
-        first: "Web Developer",
+        first: "Blockchain Developer",
         second: "Accessibility Expert",
     },
-    description: "I am a Software Engineer and Business Developer skilled in Shopify Liquid, React.js, Django, Flask, HTML/CSS, and Python. With a software engineering degree from the University of Gujrat, I specialize in creating user-focused solutions, accessible websites (WCAG compliance), and SEO optimization to improve user experiences for all, including individuals with disabilities.",
+    description: "I'm a blockchain developer specializing in Solidity and Rust, building secure smart contracts for decentralized applications. In addition, I develop interactive web experiences using HTML, CSS, JavaScript, and React. As a web accessibility expert, I ensure compliance with WCAG standards. Holding a Bachelor’s degree in IT from Government College University Faisalabad, I focus on innovation, security, and usability in everything I create.",
     your_img_url: myPic,
 };
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "I am a Software Engineer and Business Developer skilled in Shopify Liquid, React.js, Django, Flask, HTML/CSS, and Python. With a software engineering degree from the University of Gujrat, I specialize in creating user-focused solutions, accessible websites (WCAG compliance), and SEO optimization to improve user experiences for all, including individuals with disabilities.",
+    aboutme: "I'm a passionate blockchain developer with expertise in Solidity and Rust, focusing on building secure smart contracts for decentralized applications. With a solid foundation in front-end development, I craft interactive web experiences using HTML, CSS, JavaScript, and React. As a web accessibility expert, I strive to make the web inclusive by ensuring compliance with WCAG standards. Holding a Bachelor’s degree in IT from Government College University Faisalabad, I’m dedicated to innovation, security, and creating intuitive, user-centric applications.",
 };
 const worktimeline = [{
         jobtitle: "Associate Developer",
         where: "EcomBack",
-        date: "August 2024- Present",
+        date: "December 2024- Present",
     },
     {
-        jobtitle: "Python Developer",
-        where: "Knowledge Streams",
-        date: "January 2024 - April 2024",
+        jobtitle: "Front-end Developer",
+        where: "Developers Hub",
+        date: "January 2023 - December 2024",
     },
     {
-        jobtitle: "Buisness Developer",
-        where: "Stream Consultants",
-        date: "April 2024 - August 2023",
+        jobtitle: "Blockchain Developer",
+        where: "Cubix",
+        date: "April 2023 - September 2023",
     },
 ];
 
@@ -52,34 +52,34 @@ const skills = [{
         name: "Custom Shopify",
         value: 85,
     },
-    {
-        name: "Flask",
-        value: 80,
-    },
+    // {
+    //     name: "Flask",
+    //     value: 80,
+    // },
 
     {
         name: "React JS",
-        value: 80,
+        value: 70,
     },
 
 ];
 const backend = [
     {
-        name: "Node JS",
+        name: "Solidity",
         value: 85,
     },
     {
-        name: "Python",
+        name: "Rust ",
         value: 85,
     },
     {
-        name: "Django",
+        name: "Go (Golang)",
         value: 85,
     },
-    {
-        name: "flask",
-        value: 80,
-    },
+    // {
+    //     name: "flask",
+    //     value: 80,
+    // },
     {
         name: "Javascript",
         value: 80,
@@ -121,8 +121,8 @@ const others = [
 ];
 
 const services = [{
-        title: "Custom Web Development",
-        description: "Professional web development services tailored to create responsive, user-friendly, and visually appealing websites that drive engagement and deliver exceptional user experiences.",
+        title: "Blockchain Development",
+        description: "Unlock the power of blockchain technology with our expert services. We specialize in secure smart contract development using Solidity and Rust, building decentralized applications (dApps), and integrating blockchain solutions to streamline your business. Whether it’s tokenization, cryptocurrency payments, or supply chain transparency, we deliver secure, scalable, and future-ready solutions tailored to your needs.",
     },
     {
         title: "Shopify and Wordpress",
@@ -134,22 +134,22 @@ const services = [{
     },
 ];
 const experience = [{
-        title: " Associate Developer | Ecomback (August 2024 – Present)",
+        title: " Associate Developer | Ecomback (December 2024 – Present)",
         description1: "Developed and optimized websites using Shopify Liquid and custom-built solutions.",
         description2: "Focused on WCAG 2.1 compliance to ensure websites are accessible to disabled users by implementing various accessibility tools and standards.",
         description3: "Optimized website performance for SEO using tools like Lighthouse and Powermapper, while collaborating with clients and developers to implement accessibility-focused enhancements for a broader, more inclusive audience.",
     },
     {
-        title: "Business Developer | Stream Consultant (May 2024 – August 2024)",
-        description1: "Secured projects on various platforms and handled client interactions.",
-        description2: "Coordinated project management tasks using Trello and Jira, ensuring timely delivery of applications..",
-        description3: "Managed client feedback and incorporated it into the development process, enhancing project outcomes and Collaborated on GitHub for smooth deployments and issue resolutions.",
+        title: "Blockchain Developer | Cubix (April 2023 – September 2023)",
+        description1: "Developed secure smart contracts using Solidity and Rust, enabling seamless interactions and transactions within decentralized applications (dApps).",
+        description2: "Implemented blockchain-based solutions for real-world use cases such as cryptocurrency payments, tokenization, and supply chain management, enhancing transparency and security.",
+        description3: "Collaborated with cross-functional teams to integrate blockchain technologies with existing systems, ensuring scalability and high performance while adhering to best security practices.",
     },
     {
-        title: "Python Developer | Knowledge Streams (Jan 2024 – April 2024)",
-        description1: "Developed full-stack web applications using Python Django in Visual Studio Code.",
-        description2: "Collaborated in a Git/GitHub environment for version control and teamwork.",
-        description3: "Gained experience working in fast-paced development cycles, problem-solving, and learning best practices from experienced mentors.",
+        title: "Front-end Developer| Developers Hub (January2023 – December 2024)",
+        description1: "Developed dynamic, responsive web applications using HTML, CSS, and React, ensuring a seamless user experience across devices.",
+        description2: "Collaborated with design and back-end teams to implement intuitive user interfaces, enhancing functionality and improving the overall design.",
+        description3: "Optimized application performance by writing clean, efficient code and ensuring cross-browser compatibility, leading to improved loading times and user engagement.",
     },
 ];
 
@@ -203,8 +203,8 @@ const dataportfolio = [
 ];
 
     const contactConfig = {
-        YOUR_EMAIL: "attiqrehman130@gmail.com",
-        YOUR_FONE: "+923207563669",
+        YOUR_EMAIL: "hamzaruel361@gmail.com",
+        YOUR_FONE: "+923214880643",
         description: "Have a question or need assistance? Reach out to us via email, phone, or the contact form above. We're here to help and will respond promptly. Let's connect!",
         // creat an emailjs.com account 
         // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -214,10 +214,10 @@ const dataportfolio = [
     };
 
 const socialprofils = {
-    github: "https://github.com/attiqrehman-ar",
-    facebook: "https://www.facebook.com/share/p/19WjzrZeo2/",
-    linkedin: "https://www.linkedin.com/in/attiq-rehman-/",
-    twitter: "https://x.com/attiq_reh1",
+    github: "https://github.com/hamzaruel",
+    facebook: "https://web.facebook.com/hamzaruel96",
+    linkedin: "https://www.linkedin.com/in/hamza-z-9516a8283/",
+    twitter: "https://x.com/Hamza55138992",
 };
 export {
     meta,
