@@ -111,7 +111,7 @@ export const ContactUs = () => {
             </address>
             <p>{contactConfig.description}</p>
             <div className="cv-btn">
-<a href="https:https://drive.google.com/file/d/1jqq5OLDDTJ6lNrhVcIU65LkoQDS13WK9/view?usp=sharing" target="_blank">
+<a href="https://drive.google.com/file/d/1-uGQiWGKjp_qNLSZqQZNjqdB_ZBVFXHJ/view?usp=drive_link" target="_blank">
             Download CV
           </a>
   </div>

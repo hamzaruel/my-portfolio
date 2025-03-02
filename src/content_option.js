@@ -1,5 +1,5 @@
 import myPic from './assets/images/my-pic.jpg';
-const logotext = "Hamza";
+const logotext = "Hamza Zahid";
 const meta = {
     title: "Hamza Zahid",
     description: "Hamza Zahid - Blockchain Developer and accesibility Expert"
@@ -20,7 +20,7 @@ const dataabout = {
     aboutme: "I'm a passionate blockchain developer with expertise in Solidity and Rust, focusing on building secure smart contracts for decentralized applications. With a solid foundation in front-end development, I craft interactive web experiences using HTML, CSS, JavaScript, and React. As a web accessibility expert, I strive to make the web inclusive by ensuring compliance with WCAG standards. Holding a Bachelor’s degree in IT from Government College University Faisalabad, I’m dedicated to innovation, security, and creating intuitive, user-centric applications.",
 };
 const worktimeline = [{
-        jobtitle: "Associate Developer",
+        jobtitle: "E-commerce Developer (Shopify)",
         where: "EcomBack",
         date: "December 2024- Present",
     },
@@ -134,7 +134,7 @@ const services = [{
     },
 ];
 const experience = [{
-        title: " Associate Developer | Ecomback (December 2024 – Present)",
+        title: "E-commerce Developer (Shopify) | Ecomback (December 2024 – Present)",
         description1: "Developed and optimized websites using Shopify Liquid and custom-built solutions.",
         description2: "Focused on WCAG 2.1 compliance to ensure websites are accessible to disabled users by implementing various accessibility tools and standards.",
         description3: "Optimized website performance for SEO using tools like Lighthouse and Powermapper, while collaborating with clients and developers to implement accessibility-focused enhancements for a broader, more inclusive audience.",
