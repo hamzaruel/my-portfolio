@@ -2,7 +2,7 @@ import myPic from './assets/images/my-pic.jpg';
 const logotext = "Hamza Zahid";
 const meta = {
     title: "Hamza Zahid",
-    description: "Hamza Zahid - Blockchain Developer and accesibility Expert"
+    description: "Hamza Zahid - Blockchain Developer and Accessibility Expert"
 };
 
 const introdata = {
@@ -52,10 +52,10 @@ const skills = [{
         name: "Custom Shopify",
         value: 85,
     },
-    // {
-    //     name: "Flask",
-    //     value: 80,
-    // },
+    {
+        name: "Liquid",
+        value: 80,
+    },
 
     {
         name: "React JS",
@@ -125,12 +125,12 @@ const services = [{
         description: "Unlock the power of blockchain technology with our expert services. We specialize in secure smart contract development using Solidity and Rust, building decentralized applications (dApps), and integrating blockchain solutions to streamline your business. Whether it’s tokenization, cryptocurrency payments, or supply chain transparency, we deliver secure, scalable, and future-ready solutions tailored to your needs.",
     },
     {
-        title: "Shopify and Wordpress",
-        description: "Expert Shopify and WordPress development, creating visually stunning, accessible, and user-friendly websites tailored to your business needs, with a focus on WCAG compliance for inclusivity.",
+        title: "Shopify & WordPress Development | Custom Solutions with WCAG 2.2 Compliance",
+        description: "With extensive experience in Shopify and WordPress development, I specialize in building fully customized websites from the ground up. I create Shopify stores using the robust Liquid templating language, delivering seamless, scalable eCommerce solutions that align with your business needs. Similarly, I design and develop WordPress websites from scratch, ensuring they are not only feature-rich but also perfectly tailored to your brand's identity,In addition to building functional and visually appealing sites, I ensure all websites adhere to the latest WCAG 2.2 accessibility standards. This guarantees that your site is accessible to a broader audience, including users with disabilities, making your digital presence more inclusive and user-friendly."
     },
     {
-        title: "Accessibility Expertise",
-        description: "Specialized accessibility solutions to ensure your websites meet WCAG standards, providing inclusive, user-friendly experiences for individuals of all abilities.",
+        title: "Accessibility Expertise | WCAG 2.2 Compliance",
+        description: "I provide specialized accessibility solutions to ensure your websites are fully compliant with WCAG (Web Content Accessibility Guidelines) standards, creating inclusive and user-friendly experiences for individuals of all abilities. My expertise lies in making websites accessible to everyone, regardless of their physical or cognitive limitations. From color contrast adjustments to keyboard navigation enhancements, I ensure that your site is not only functional but also meets the highest standards of web accessibility,By focusing on WCAG 2.2 compliance, I help improve user engagement, boost SEO rankings, and ensure your digital presence is available to all users, including those with visual, auditory, and motor disabilities.",
     },
 ];
 const experience = [{
